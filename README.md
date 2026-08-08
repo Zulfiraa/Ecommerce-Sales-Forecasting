@@ -70,6 +70,7 @@ The dataset used in this project including:
 ### Time Series Forecasting Models
 The following presents the accuracy results of each forecasting model.
 <div align="center">
+  
 | Model     |     ME |        RMSE |         MAE |      MAPE |     MASE |
 | --------- | -----: | ----------: | ----------: | --------: | -------: |
 | **Naive** | -66.19 |     6548.45 |     5146.79 |     17.46 |     1.24 |
@@ -82,6 +83,7 @@ The following presents the accuracy results of each forecasting model.
 ### Forecast Future Sales
 The forecasting results indicate that monthly sales are expected to fluctuate between approximately $27,888 and $32,246 from July to December 2026. Sales are forecasted to increase from $30,676 in July to $31,098 in August, followed by a gradual decline in September and October. The lowest forecasted sales occur in October 2026 at $27,888, while sales are expected to recover and reach the highest level of $32,246 in December 2026.
 <div align="center">
+  
 | Month    | Forecast | Lower 80% | Upper 80% |
 | -------- | -------: | --------: | --------: |
 | Jul 2026 |   30,676 |    25,503 |    35,850 |

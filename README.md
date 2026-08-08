@@ -13,6 +13,7 @@ The project analyzes historical sales data to identify trends, seasonal patterns
 - GitHub: repository management, version control (Git), project documentation (README), and portfolio publishing
 ## Dataset
 The dataset used in this project including:
+<div align="center">
 | Variable           | Keterangan        |
 | ------------------ | ----------------- |
 | `order_id`         | ID transaksi      |
@@ -66,17 +67,18 @@ The dataset used in this project including:
 
 ### Time Series Forecasting Models
 The following presents the accuracy results of each forecasting model.
+<div align="center">
 | Model     |     ME |        RMSE |         MAE |      MAPE |     MASE |
 | --------- | -----: | ----------: | ----------: | --------: | -------: |
 | **Naive** | -66.19 |     6548.45 |     5146.79 |     17.46 |     1.24 |
 | **ETS**   |  -1.61 |     4366.64 |     3341.97 |     11.43 |     0.80 |
 | **ARIMA** | -47.18 |     3884.81 |     3084.84 |     10.53 |     0.74 |
 
-**Best Model**
-ARIMA was selected as the best-performing forecasting model, achieving the lowest RMSE, MAE, MAPE, and MASE compared with the Naive and ETS models.
+**Best Model** : ARIMA was selected as the best-performing forecasting model, achieving the lowest RMSE, MAE, MAPE, and MASE compared with the Naive and ETS models.
 
 ### Forecast Future Sales
 The forecasting results indicate that monthly sales are expected to fluctuate between approximately $27,888 and $32,246 from July to December 2026. Sales are forecasted to increase from $30,676 in July to $31,098 in August, followed by a gradual decline in September and October. The lowest forecasted sales occur in October 2026 at $27,888, while sales are expected to recover and reach the highest level of $32,246 in December 2026.
+<div align="center">
 | Month    | Forecast | Lower 80% | Upper 80% |
 | -------- | -------: | --------: | --------: |
 | Jul 2026 |   30,676 |    25,503 |    35,850 |

@@ -43,7 +43,7 @@ The dataset used in this project including:
 ## Results
 ### Exploratory Data Analysis
 **Monthly Sales**
-- Revenue fluctuates significantly from month to month, ranging approximately from $21,000 to $42,000.
+- Revenue fluctuates significantly from month to month
 - There are several revenue peaks, particularly around mid-2022, early 2023, mid-2024, and late 2025, indicating periods of substantially higher sales compared with other months.
 - Conversely, several sharp declines can be observed, particularly in early 2024, mid-2024, early 2025, and late 2025.
 - No strong long-term upward trend is observed. Revenue at the beginning and end of the period remains within a relatively similar range.
@@ -53,6 +53,9 @@ The dataset used in this project including:
 <img width="80%" alt="image" src="https://github.com/user-attachments/assets/a076aceb-36a3-4025-8613-5a3842a8546f" />
 
 **Revenue by Product Category & Region**
+- Electronics generates the highest revenue across all regions, making it the strongest-performing product category. The North region records the highest Electronics revenue, at approximately $173,000.
+- Regional performance varies by category. North performs particularly strongly in Electronics, while West leads in Clothing and Home.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3e5e0f71-556a-41e2-a425-e5c706fc6164" width="45%">
   <img src="https://github.com/user-attachments/assets/68536126-1689-4503-b26a-da2fa148e64f" width="45%">
@@ -61,4 +64,29 @@ The dataset used in this project including:
 <p align="center">
 <img width="70%" alt="image" src="https://github.com/user-attachments/assets/9c8ce33e-2321-4362-a5a4-f14954210bc0" />
 
-### Time Series Analysis
+### Time Series Forecasting Models
+The following presents the accuracy results of each forecasting model.
+| Model     |     ME |        RMSE |         MAE |      MAPE |     MASE |
+| --------- | -----: | ----------: | ----------: | --------: | -------: |
+| **Naive** | -66.19 |     6548.45 |     5146.79 |     17.46 |     1.24 |
+| **ETS**   |  -1.61 |     4366.64 |     3341.97 |     11.43 |     0.80 |
+| **ARIMA** | -47.18 |     3884.81 |     3084.84 |     10.53 |     0.74 |
+
+**Best Model**
+ARIMA was selected as the best-performing forecasting model, achieving the lowest RMSE, MAE, MAPE, and MASE compared with the Naive and ETS models.
+
+### Forecast Future Sales
+The forecasting results indicate that monthly sales are expected to fluctuate between approximately $27,888 and $32,246 from July to December 2026. Sales are forecasted to increase from $30,676 in July to $31,098 in August, followed by a gradual decline in September and October. The lowest forecasted sales occur in October 2026 at $27,888, while sales are expected to recover and reach the highest level of $32,246 in December 2026.
+| Month    | Forecast | Lower 80% | Upper 80% |
+| -------- | -------: | --------: | --------: |
+| Jul 2026 |   30,676 |    25,503 |    35,850 |
+| Aug 2026 |   31,098 |    25,882 |    36,315 |
+| Sep 2026 |   30,655 |    25,175 |    36,135 |
+| Oct 2026 |   27,888 |    22,390 |    33,386 |
+| Nov 2026 |   28,759 |    23,237 |    34,281 |
+| Dec 2026 |   32,246 |    26,720 |    37,772 |
+
+<p align="center">
+<img width="80%"  alt="image" src="https://github.com/user-attachments/assets/f44f0f29-c1a4-40b9-8298-009286c31c19" />
+
+## Business Recommendation

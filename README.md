@@ -14,6 +14,7 @@ The project analyzes historical sales data to identify trends, seasonal patterns
 ## Dataset
 The dataset used in this project including:
 <div align="center">
+  
 | Variable           | Keterangan        |
 | ------------------ | ----------------- |
 | `order_id`         | ID transaksi      |

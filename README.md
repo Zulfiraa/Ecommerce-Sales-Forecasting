@@ -50,7 +50,7 @@ The dataset used in this project including:
 - The recurring fluctuations indicate unstable demand, highlighting the importance of sales forecasting to estimate future revenue and support better business planning.
 
 <p align="center">
-<img width="640" height="347" alt="image" src="https://github.com/user-attachments/assets/a076aceb-36a3-4025-8613-5a3842a8546f" />
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/a076aceb-36a3-4025-8613-5a3842a8546f" />
 
 **Revenue by Product Category & Region**
 <p align="center">

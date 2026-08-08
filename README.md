@@ -49,6 +49,7 @@ The dataset used in this project including:
 - No strong long-term upward trend is observed. Revenue at the beginning and end of the period remains within a relatively similar range.
 - The recurring fluctuations indicate unstable demand, highlighting the importance of sales forecasting to estimate future revenue and support better business planning.
 
+<p align="center">
 <img width="640" height="347" alt="image" src="https://github.com/user-attachments/assets/a076aceb-36a3-4025-8613-5a3842a8546f" />
 
 **Revenue by Product Category & Region**
@@ -57,6 +58,7 @@ The dataset used in this project including:
   <img src="https://github.com/user-attachments/assets/68536126-1689-4503-b26a-da2fa148e64f" width="45%">
 </p>
 
-<img width="640" height="347" alt="image" src="https://github.com/user-attachments/assets/9c8ce33e-2321-4362-a5a4-f14954210bc0" />
+<p align="center">
+<img width="70%" alt="image" src="https://github.com/user-attachments/assets/9c8ce33e-2321-4362-a5a4-f14954210bc0" />
 
 ### Time Series Analysis

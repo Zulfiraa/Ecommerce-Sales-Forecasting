@@ -28,6 +28,7 @@ The dataset used in this project including:
 | `delivery_days`    | Lama pengiriman   |
 | `customer_rating`  | Rating customer   |
 | `revenue`          | Pendapatan        |
+</div>
 
 ## Process
 - Review the dataset summary to understand data structure, variables, and key statistics
@@ -73,6 +74,7 @@ The following presents the accuracy results of each forecasting model.
 | **Naive** | -66.19 |     6548.45 |     5146.79 |     17.46 |     1.24 |
 | **ETS**   |  -1.61 |     4366.64 |     3341.97 |     11.43 |     0.80 |
 | **ARIMA** | -47.18 |     3884.81 |     3084.84 |     10.53 |     0.74 |
+</div>
 
 **Best Model** : ARIMA was selected as the best-performing forecasting model, achieving the lowest RMSE, MAE, MAPE, and MASE compared with the Naive and ETS models.
 
@@ -87,6 +89,7 @@ The forecasting results indicate that monthly sales are expected to fluctuate be
 | Oct 2026 |   27,888 |    22,390 |    33,386 |
 | Nov 2026 |   28,759 |    23,237 |    34,281 |
 | Dec 2026 |   32,246 |    26,720 |    37,772 |
+</div>
 
 <p align="center">
 <img width="80%"  alt="image" src="https://github.com/user-attachments/assets/f44f0f29-c1a4-40b9-8298-009286c31c19" />

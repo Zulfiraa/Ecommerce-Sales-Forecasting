@@ -54,7 +54,7 @@ The dataset used in this project including:
 
 **Revenue by Product Category & Region**
 - Electronics generates the highest revenue across all regions, making it the strongest-performing product category. The North region records the highest Electronics revenue, at approximately $173,000.
-- Regional performance varies by category. North performs particularly strongly in Electronics, while West leads in Clothing and Home.
+- Regional performance varies by category. North performs particularly strongly in Electronics, West leads in Clothing and Home, and Beauty products generate the highest revenue in the East region
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3e5e0f71-556a-41e2-a425-e5c706fc6164" width="45%">
@@ -90,3 +90,10 @@ The forecasting results indicate that monthly sales are expected to fluctuate be
 <img width="80%"  alt="image" src="https://github.com/user-attachments/assets/f44f0f29-c1a4-40b9-8298-009286c31c19" />
 
 ## Business Recommendation
+- **Inventory Planning** : Increase inventory levels for high performing products ahead of periods with higher projected revenue to reduce the risk of stockouts, such as on December 2026
+- **Targeted Marketing** : Develop region specific marketing campaigns by prioritizing high performing product categories in each region. For example focusing electronic promotions in the north, Clothing and Home in the West, and Beauty in the East region
+- **Promotional Calender** : Implement a promotional calendar that increases marketing activity during projected low revenue periods and maximizes demand during peak periods. Promotional activities can be adjusted according to the forecast patterns as follows:
+-- September: Regular promotion
+-- October: Increase promotional campaigns to boost sales
+-- November: Start early holiday promotions
+-- December: Maximize sales through holiday campaigns

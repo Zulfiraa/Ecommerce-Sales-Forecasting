@@ -51,15 +51,12 @@ The dataset used in this project including:
 
 <img width="640" height="347" alt="image" src="https://github.com/user-attachments/assets/a076aceb-36a3-4025-8613-5a3842a8546f" />
 
-**Revenue by Product Category**
-
-<img width="640" height="349" alt="image" src="https://github.com/user-attachments/assets/3e5e0f71-556a-41e2-a425-e5c706fc6164" />
-
-**Revenue by Region**
-
-<img width="640" height="347" alt="image" src="https://github.com/user-attachments/assets/68536126-1689-4503-b26a-da2fa148e64f" />
-
 **Revenue by Product Category & Region**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3e5e0f71-556a-41e2-a425-e5c706fc6164" width="45%">
+  <img src="https://github.com/user-attachments/assets/68536126-1689-4503-b26a-da2fa148e64f" width="45%">
+</p>
+
 <img width="640" height="347" alt="image" src="https://github.com/user-attachments/assets/9c8ce33e-2321-4362-a5a4-f14954210bc0" />
 
 ### Time Series Analysis

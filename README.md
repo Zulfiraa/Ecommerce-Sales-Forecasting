@@ -93,7 +93,7 @@ The forecasting results indicate that monthly sales are expected to fluctuate be
 - **Inventory Planning** : Increase inventory levels for high performing products ahead of periods with higher projected revenue to reduce the risk of stockouts, such as on December 2026
 - **Targeted Marketing** : Develop region specific marketing campaigns by prioritizing high performing product categories in each region. For example focusing electronic promotions in the north, Clothing and Home in the West, and Beauty in the East region
 - **Promotional Calender** : Implement a promotional calendar that increases marketing activity during projected low revenue periods and maximizes demand during peak periods. Promotional activities can be adjusted according to the forecast patterns as follows:
-- September: Regular promotion
-- October: Increase promotional campaigns to boost sales
-- November: Start early holiday promotions
-- December: Maximize sales through holiday campaigns
+  - September: Regular promotion
+  - October: Increase promotional campaigns to boost sales
+  - November: Start early holiday promotions
+  - December: Maximize sales through holiday campaigns

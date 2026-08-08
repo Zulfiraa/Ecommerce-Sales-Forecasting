@@ -41,7 +41,7 @@ The dataset used in this project including:
 - Generate future sales forecasts and visualize actual vs. forecasted sales
 - Provide recommendations for inventory, promotional, and sales planning
 
-**Code**: (./Ecommerse_forecast.R)
+**Code**: [R Code](./Ecommerse forecast.R)
 
 ## Results
 ### Exploratory Data Analysis
